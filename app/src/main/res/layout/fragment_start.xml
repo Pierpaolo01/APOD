@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartFragment"
+    android:background="@color/cardview_dark_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linearStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textStart"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START FRAGMENT"
+        android:layout_marginBottom="20dp"
+        android:textColor="#fff"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp" />
+
+    <CalendarView
+        android:id="@+id/startCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/cardview_dark_background"
+        android:theme="@style/CalenderViewCustom"
+        android:dateTextAppearance="@style/CalenderViewDateCustomText"
+        android:weekDayTextAppearance="@style/CalenderViewWeekCustomText">
+
+    </CalendarView>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:background="@color/cardview_dark_background"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="35dp"
+        android:layout_below="@id/linearStart"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:gravity="center"
+    >
+    
+    <android.support.v7.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/pictureIMG"
+                android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/dateTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:background="#000000"
+                    android:text="2018-09-17"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="170dp"
+                    android:layout_marginLeft="16dp" />
+
+            </FrameLayout>
+            <TextView
+                android:id="@+id/titleTV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cosmic Collision Forges Galactic Ring"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:paddingBottom="8dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textTV"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:paddingLeft="16dp"
+                android:text="How could a galaxy become shaped like a ring?  The rim of the blue galaxy pictured on the right is an immense ring-like structure 150,000 light years in diameter composed of newly formed, extremely bright, massive stars.  That galaxy, AM 0644-741, is known as a ring galaxy and was caused by an immense galaxy collision.  When galaxies collide, they pass through each other -- their individual stars rarely come into contact.  The ring-like shape is the result of the gravitational disruption caused by an entire small intruder galaxy passing through a large one.  When this happens, interstellar gas and dust become condensed, causing a wave of star formation to move out from the impact point like a ripple across the surface of a pond.  The likely intruder galaxy is on the left of this combined image from Hubble (visible) and Chandra (X-ray) space telescopes.  X-ray light is shown in pink and depicts places where energetic black holes or neutron stars, likely formed shortly after the galaxy collision, reside.   Open Science: Browse 1,800+ codes in the Astrophysics Source Code Library"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:paddingBottom="40dp"
+                />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
